@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Superset Datasource Updater</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style2.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Superset Datasource Updater</h1>
+        <form id="updateForm">
+            <label for="superset_url">Superset URL:</label>
+            <input type="text" id="superset_url" name="superset_url" required>
+
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="dashboard_id">Dashboard ID:</label>
+            <input type="number" id="dashboard_id" name="dashboard_id" required>
+
+            <label for="old_id">Old Datasource ID:</label>
+            <input type="text" id="old_id" name="old_id" required>
+
+            <label for="new_id">New Datasource ID:</label>
+            <input type="text" id="new_id" name="new_id" required>
+
+            <button type="submit">Update Charts</button>
+        </form>
+
+        <div id="output"></div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
