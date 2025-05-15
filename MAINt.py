@@ -4,7 +4,7 @@ import json
 # -----------------------------
 # CONFIGURATION
 # -----------------------------
-superset_url = "https://analytics.meine-sicht.com"
+superset_url = ""
 dashboard_id = 47
 new_datasource_id = 118
 new_datasource_type = "table"
