@@ -16,4 +16,4 @@ This script connects to a Superset instance, retrieves all charts from a specifi
 - Python 3.7+
 - [requests]
 
-  ## Also included simple html, css, and javacode(not tested) prepared for flask conection with python code.
+  ## Also included simple html, css, and js(not tested) prepared for flask conection with python code.
